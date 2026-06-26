@@ -5,7 +5,7 @@ const NAV = [
   { href: '/', label: 'Home' },
   { href: '/download', label: 'Download' },
   { href: '/manifest', label: 'Manifest' },
-  { href: '/waitlist', label: 'Waitlist' },
+  { href: '/status', label: 'Status' },
 ];
 
 export default function Header() {
@@ -25,8 +25,8 @@ export default function Header() {
           ))}
         </nav>
 
-        <Link href="/download" className="header__cta">
-          Get the build
+        <Link href="/status" className="header__cta">
+          Dev status
           <span aria-hidden="true">→</span>
         </Link>
       </div>

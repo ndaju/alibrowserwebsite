@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Logo from '@/components/Logo';
 
 export const metadata = {
@@ -60,7 +61,7 @@ export default function DownloadPage() {
 
         <p className="lede download__lede reveal d-2">
           We are still building. No public builds, no betas, no "download now" buttons.
-          Sign up for the waitlist — you will be the first to know when something ships.
+          Check the <Link href="/status" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>status page</Link> for updates.
         </p>
 
         {/* ============== PLATFORM PILLS ============== */}
@@ -97,13 +98,13 @@ export default function DownloadPage() {
           })}
         </div>
 
-        {/* ============== WAITLIST CTA ============== */}
+        {/* ============== STATUS CTA ============== */}
         <div className="download__waitlist reveal d-6">
-          <h3>Want to know when it ships?</h3>
-          <p>Join the waitlist — you will be the first to download.</p>
-          <a href="/waitlist" className="cta__button">
-            Join the waitlist <span className="arrow">→</span>
-          </a>
+          <h3>What is happening right now?</h3>
+          <p>We are building. Follow the dev log on the status page.</p>
+          <Link href="/status" className="cta__button">
+            View dev status <span className="arrow">→</span>
+          </Link>
         </div>
 
         {/* ============== WHAT WE'RE BUILDING ============== */}

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import WaitlistInline from '@/components/WaitlistInline';
 
 export const metadata = {
   title: 'AliBrowser — A browser that doesn’t watch you. Yet.',
@@ -194,17 +193,19 @@ export default function HomePage() {
       </section>
 
       {/* ============================================================ */}
-      {/*  3 · SEARCH-STYLE CTA STRIP (waitlist prompt)                */}
+      {/*  3 · SEARCH-STYLE CTA STRIP (status prompt)                  */}
       {/* ============================================================ */}
       <section className="container">
         <div className="cta-strip reveal d-8">
           <div className="cta-strip__text">
-            <span className="cta-strip__sub">↳ Try the next build</span>
+            <span className="cta-strip__sub">↳ Current status</span>
             <h2 className="cta-strip__title">
-              Get the next build. <em style={{ color: 'var(--amber)' }}>No spam, ever.</em>
+              In development. <em style={{ color: 'var(--teal)' }}>Shipping when it is ready.</em>
             </h2>
           </div>
-          <WaitlistInline />
+          <Link href="/status" className="cta__button">
+            View status <span className="arrow">→</span>
+          </Link>
         </div>
 
         <div className="pill-row reveal d-9">

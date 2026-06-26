@@ -130,11 +130,9 @@ export default function ManifestPage() {
               read.
             </p>
             <p>
-              The one place we keep data is the waitlist. It is a single SQLite
-              file on a single server. The columns are <code>id</code>,{' '}
-              <code>email</code>, and <code>created_at</code>. That is the
-              entire schema. The server has no other software on it. It will
-              stay that way.
+              We keep no data. There is no analytics, no telemetry, no user
+              database. The only thing that exists is the code and this page.
+              That is the entire data policy. It will stay that way.
             </p>
             <p>
               When you install AliBrowser, the only outbound network request the
@@ -198,7 +196,7 @@ export default function ManifestPage() {
               <li>Translate. We have a Weblate, and the strings are short.</li>
               <li>Read the threat model. Send a patch if you find a hole.</li>
               <li>Run the alpha on a weird machine. ARM, PowerPC, an old ThinkPad, your cousin’s PC.</li>
-              <li>Tell a friend. Or don’t. The waitlist is a SQLite file; it has room.</li>
+              <li>Tell a friend. Or don’t. There is no list, but word of mouth works.</li>
             </ul>
             <p>
               If you would like to write code, the good first issues are tagged{' '}
@@ -216,17 +214,17 @@ export default function ManifestPage() {
               className="manifest__sub"
               style={{ textAlign: 'center', maxWidth: '40ch' }}
             >
-              If you read this far, you might as well be on the list.
+              If you read this far, see what we are building right now.
             </p>
-            <Link href="/waitlist">
-              Sign the waitlist
+          <Link href="/status">
+              View development status
               <span aria-hidden="true" style={{ fontFamily: 'var(--f-serif)', fontSize: 17 }}>→</span>
             </Link>
             <span
               className="mono"
               style={{ marginTop: 16, color: 'var(--ink-4)' }}
             >
-              No tracking, no newsletter, no “you won the prize”.
+              No tracking, no newsletter, no nonsense.
             </span>
           </div>
         </div>
