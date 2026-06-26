@@ -21,7 +21,7 @@ const COLS = [
     title: 'Elsewhere',
     links: [
       { href: 'https://github.com', label: 'GitHub' },
-      { href: 'mailto:ali@alibrowser.dev', label: 'ali@alibrowser.dev' },
+      { href: 'mailto:alione@alione.cc', label: 'alione@alione.cc' },
       { href: '/manifest', label: 'Contribute' },
     ],
   },
