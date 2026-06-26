@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="footer__brand">
             <span className="wordmark">AliBrowser</span>
             <p>
-              Built by <strong>AliOne</strong> — a small, deliberate company that always
+              Built by <a href="https://alione.cc" target="_blank" rel="noopener noreferrer"><strong>AliOne</strong></a> — a small, deliberate company that always
               listens to its community, and always will be.
             </p>
             <span className="footer__ownedby">
@@ -63,7 +63,7 @@ export default function Footer() {
 
         <div className="footer__caption">
           <span>© 2026 AliOne. AliBrowser is an AliOne project. No telemetry. No analytics. No newsletter.</span>
-          <span className="build">Build a3f1c8e · <a href="https://alione.cc" target="_blank" rel="noopener noreferrer">Made by AliOne</a> · Always listening.</span>
+          <span className="build">Build a3f1c8e · <a href="https://alione.cc" target="_blank" rel="noopener noreferrer">Made by AliOne</a> · <a href="https://alione.cc" target="_blank" rel="noopener noreferrer" class="mono">alione.cc</a></span>
         </div>
       </div>
     </footer>

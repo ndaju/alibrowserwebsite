@@ -122,7 +122,7 @@ export default function HomePage() {
 
           <p className="lede hero__lede reveal d-3">
             AliBrowser is a privacy-first, Firefox-based browser built slowly, on purpose, by{' '}
-            <strong>AliOne</strong> — a small company in Istanbul that always listens to its
+            <a href="https://alione.cc" target="_blank" rel="noopener noreferrer"><strong>AliOne</strong></a> — a small company in Istanbul that always listens to its
             community, and always will be. It runs on Gecko, ships under MIT, and doesn’t phone
             home. It is, by every reasonable measure, almost ready.
           </p>

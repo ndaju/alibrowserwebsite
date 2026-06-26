@@ -64,7 +64,7 @@ export default function ManifestPage() {
               AliBrowser is a fork of Gecko (the engine Firefox uses). It
               strips out the parts that phone home, keeps the parts that make
               the modern web actually work, and ships under MIT. It is built by{' '}
-              <strong>AliOne</strong> — a small, deliberate company in Istanbul —
+              <a href="https://alione.cc" target="_blank" rel="noopener noreferrer"><strong>AliOne</strong></a> — a small, deliberate company in Istanbul —
               in the time between other things.
             </p>
             <p>
