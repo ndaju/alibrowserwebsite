@@ -517,6 +517,21 @@ mark.hl {
   font-feature-settings: 'ss01';
 }
 
+.header__byline {
+  font-family: var(--f-sans);
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--ink-4);
+  text-decoration: none;
+  margin-left: 6px;
+  margin-top: 10px;
+  transition: color 0.2s;
+}
+
+.header__byline:hover {
+  color: var(--accent);
+}
+
 .header__nav {
   display: flex;
   align-items: center;

@@ -15,6 +15,9 @@ export default function Header() {
         <Link href="/" className="header__brand" aria-label="AliBrowser home">
           <Logo size={36} />
           <span className="wordmark">AliBrowser</span>
+          <a href="https://alione.cc" target="_blank" rel="noopener noreferrer" className="header__byline" aria-label="AliOne">
+            by AliOne
+          </a>
         </Link>
 
         <nav className="header__nav" aria-label="Primary">
