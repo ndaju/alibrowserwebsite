@@ -1,0 +1,20 @@
+{
+  "name": "alibrowser-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Marketing & download site for AliBrowser — a privacy-first, Firefox-based browser by Ali.",
+  "scripts": {
+    "dev": "next dev -p 3006",
+    "build": "next build",
+    "start": "next start -p 3006",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "geist": "^1.3.1",
+    "next": "^14.2.33",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.34.5"
+  }
+}
